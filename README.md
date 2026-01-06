@@ -1,16 +1,26 @@
-# React + Vite
+# Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+A React.js application to manage employees with add, edit, delete, search, filter, and print features. Includes profile image upload with preview.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React.js (Vite)
+- Material-UI
+- Local Storage (mock database)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run
+1. Clone the repository
+   git clone <your-repo-url>
+2. Navigate into project folder
+   cd employee-management-dashboard
+3. Install dependencies
+   npm install
+4. Run the app
+   npm run dev
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Add/Edit/Delete Employee
+- Profile Image Upload with Preview
+- Search and Filter by Name, Gender, Status
+- Print Employee List
+- Form Validation
